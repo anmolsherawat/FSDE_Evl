@@ -6,11 +6,11 @@ on:
 
 env:
   AWS_REGION: us-east-1
-  ECR_REPOSITORY: k8s-demo-app
-  ECS_CLUSTER: k8s-demo-cluster
-  ECS_SERVICE: k8s-demo-service
+  ECR_REPOSITORY: shopsmart
+  ECS_CLUSTER: shopsmart-cluster
+  ECS_SERVICE: shopsmart-service
   ECS_TASK_DEFINITION: ecs/task-definition.json
-  CONTAINER_NAME: k8s-demo-app
+  CONTAINER_NAME: shopsmart-app
 
 jobs:
   # Job 1: Build and Test
